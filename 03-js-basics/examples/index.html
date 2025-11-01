@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Grundlagen - Beispiel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JavaScript Grundlagen</h1>
+            <p class="subtitle">Machen Sie Ihre Webseite interaktiv!</p>
+        </header>
+
+        <main>
+            <!-- Beispiel 1: Console.log -->
+            <section class="card">
+                <h2>1. Console.log - Ausgabe in der Konsole</h2>
+                <p>Öffnen Sie die Browser-Konsole (F12) und schauen Sie sich die Ausgaben an!</p>
+                <button id="console-button" class="btn">Console.log ausführen</button>
+            </section>
+
+            <!-- Beispiel 2: Button Click -->
+            <section class="card">
+                <h2>2. Button Click Event</h2>
+                <p>Klicken Sie auf den Button unten:</p>
+                <button id="click-button" class="btn btn-primary">Klick mich!</button>
+                <p id="click-count">Anzahl Klicks: 0</p>
+            </section>
+
+            <!-- Beispiel 3: Text ändern -->
+            <section class="card">
+                <h2>3. Text dynamisch ändern</h2>
+                <p id="dynamic-text">Dies ist der Originaltext.</p>
+                <button id="change-text-button" class="btn btn-success">Text ändern</button>
+            </section>
+
+            <!-- Beispiel 4: Farbe ändern -->
+            <section class="card">
+                <h2>4. Hintergrundfarbe ändern</h2>
+                <div id="color-box" class="color-box">
+                    Klicken Sie den Button!
+                </div>
+                <button id="color-button" class="btn btn-warning">Farbe ändern</button>
+            </section>
+
+            <!-- Beispiel 5: Input Feld -->
+            <section class="card">
+                <h2>5. Input Feld auslesen</h2>
+                <input type="text" id="name-input" placeholder="Geben Sie Ihren Namen ein">
+                <button id="greet-button" class="btn btn-info">Begrüßen</button>
+                <p id="greeting"></p>
+            </section>
+
+            <!-- Beispiel 6: Liste hinzufügen -->
+            <section class="card">
+                <h2>6. Elemente zur Liste hinzufügen</h2>
+                <input type="text" id="todo-input" placeholder="Neue Aufgabe">
+                <button id="add-todo-button" class="btn">Hinzufügen</button>
+                <ul id="todo-list"></ul>
+            </section>
+        </main>
+    </div>
+
+    <!-- JavaScript-Datei IMMER am Ende des Body einbinden! -->
+    <script src="js/script.js"></script>
+</body>
+</html>
